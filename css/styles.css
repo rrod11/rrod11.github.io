@@ -11380,3 +11380,27 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
+.icon.html5 {
+  background-image: url(../images/html5.svg);
+}
+.icon.css3 {
+  background-image: url(../images/css3.svg);
+}
+.icon.javascript {
+  background-image: url(../images/javascript.svg);
+}
+.icon.python {
+  background-image: url(../images/python.svg);
+}
+.icon.react {
+  background-image: url(../images/react.svg);
+}
+.icon.redux {
+  background-image: url(../images/redux.svg);
+}
+.icon.postgresql {
+  background-image: url(../images/postgresql.svg);
+}
+.icon.git {
+  background-image: url(../images/git.svg);
+}
