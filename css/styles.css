@@ -11404,6 +11404,10 @@ p {
 .icon.git {
   background-image: url(../images/git.svg);
 }
-/* .icon.here {
-
-} */
+.portfolio-div {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  bottom: -25px;
+  justify-content: center;
+}
