@@ -3100,6 +3100,7 @@ body.is-ie .spotlights > section {
 .spotlights > section > .image img {
   border-radius: 0;
   display: block;
+  width: 100%;
 }
 
 .spotlights > section > .image:before {
