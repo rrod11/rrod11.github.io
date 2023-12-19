@@ -11404,10 +11404,6 @@ p {
 .icon.git {
   background-image: url(../images/git.svg);
 }
-.icon.here {
-  top: -50px;
-  left: -250px;
-  position: absolute;
+/* .icon.here {
 
-  width: 100%;
-}
+} */
