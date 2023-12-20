@@ -4813,3 +4813,12 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     visibility: visible;
   }
 }
+.sfeatures {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+}
+.sfeatures > img {
+  width: 50%;
+}
