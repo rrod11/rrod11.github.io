@@ -11354,6 +11354,26 @@ p {
     z-index: 1;
     margin-top: -3rem;
     max-width: 50vw;
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
+  /* .product-item .product-item-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3rem;
+  }
+  .product-item .product-item-img {
+    position: relative;
+    z-index: 0;
+    max-width: 60vw;
+  } */
+  .product-item .product-item-description {
+    position: relative;
+    z-index: 1;
+    /* margin-top: -3rem;
+    max-width: 50vw; */
+    flex-direction: column;
   }
 }
 
@@ -11410,10 +11430,21 @@ p {
 .icon-here img {
   width: 400px;
 }
-.portfolio-div {
-  position: absolute;
-  width: 100%;
-  display: flex;
-  bottom: -25px;
-  justify-content: center;
+@media (min-width: 1100px) {
+  .portfolio-div {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    bottom: -25px;
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .portfolio-div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    bottom: -25px;
+    justify-content: center;
+  }
 }
